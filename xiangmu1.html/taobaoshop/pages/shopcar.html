@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/shopcar.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/public.css">
+</head>
+
+<body>
+    <nav>
+        <div class="margin">
+            <div class="left">
+                <a href="./login.html" class="user">亲，请登录</a>
+                <a href="./regist.html">免费注册</a>
+                <a href="">手机逛淘宝</a>
+            </div>
+            <div class="right">
+                <a href="./index.html">我的淘宝</a><span></span>
+                <a href="./shopcar.html" class="te">购物车<i class="carCount">0</i></a><span></span>
+                <a href="" class="te2">收藏夹</a><span></span>
+                <a href="">商品分类</a><span class="sp">|</span>
+                <a href="">买家中心</a><span></span>
+                <a href="">联系客服</a><span></span>
+                <a href="" class="te3">网站导航</a><span></span>
+            </div>
+        </div>
+    </nav>
+  <h1 class="logo clear">
+    <a href="./list.html"></a>
+    <div class="box">
+      <div class="inpt">
+        <input type="text" class="txt" placeholder="大神聊跑步选装备">
+        <input type="submit" class="sub" value="搜索">
+      </div>
+    </div>
+  </h1>
+  <div class="container">
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading container">购物车信息<div><input type="checkbox" class="selectAll">全选</div>
+      </div>
+      <div class="shopObj">
+        <div><input type="checkbox" class="selectAll"><label for="">全选</label></div>
+        <div class="allDel">删除</div>
+        <div><span>选中商品的数量:</span><span class="count"></span></div>
+        <div><span>总价:￥</span><span class="prise"></span></div>
+        <button type="button" class="btn countPay">结算</button>
+      </div>
+      <!-- Table -->
+      <table id="shopcar">
+        <tr class="row">
+          <td class="col-xs-2"><input type="checkbox" class="selectAll"></td>
+          <td class="col-xs-2"><img
+              src="https://img.alicdn.com/imgextra/i3/47222113/O1CN01R0thiG1RTnRfJHOQ7_!!0-saturn_solar.jpg_220x220.jpg_.webp"
+              alt=""></td>
+          <td class="col-xs-6"><span class="price">￥35</span></td>
+          <td class="col-xs-2">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default add">+</button>
+              <button type="button" class="btn btn-default">1</button>
+              <button type="button" class="btn btn-default decrease">-</button>
+            </div>
+          </td>
+          <td class="col-xs-4"><button type="button" class="btn btn-danger">删除</button></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+  <script src="../js/cookie.js"></script>
+  <script src="../js/shopcar.js"></script>
+  
+</body>
+
+</html>

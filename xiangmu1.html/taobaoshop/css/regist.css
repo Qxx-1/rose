@@ -1,0 +1,6 @@
+.box{width:400px;margin:0 0 0 900px;padding-top:80px;}
+.suBtn{text-align: center;}
+header{width:1280px;height:120px;margin:0 auto;}
+header .logo{float:left;padding-top:30px;}
+header p{float:right;margin-top:50px;width:1000px;height:30px;font:15px/30px "";background:pink;}
+.banner{height:600px;background:url("../images/banner5.jpg")  no-repeat center;}

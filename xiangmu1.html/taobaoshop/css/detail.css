@@ -1,0 +1,29 @@
+.prise{color:red;font-size: 30px;}
+.btn-btn{margin-top:40px;}
+.media-left{
+    position: relative;
+    
+}
+.media-left a{display:block;}
+
+.moveBox {
+    display: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+   
+    background: url("../images/repeat.png");
+    
+}
+.bigBox {
+    display: none;
+    position:absolute;
+    left: 320px;
+    top: 20px;
+    width: 350px;
+    height: 350px;
+    background: url("./images/big.jpg") no-repeat 0 0;
+    z-index: 10;
+}

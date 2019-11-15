@@ -1,0 +1,19 @@
+table img{width:100px;height:100px;}
+table{text-align: center;}
+.pay{position: fixed;bottom:0;left:0;right:0;margin:0 auto;width:1200px;height:200px;}
+.shopObj .count{color:#ff4200;font-size:20px;}
+.shopObj .prise{color:#ff4200;font-size:20px}
+.shopObj .countPay{width:80px;height:40px;background:#ff4200;border:0;}
+.shopObj{
+    z-index: 10;
+    width:1100px;height: 40px;background: #e5e5e5;
+    position:fixed;bottom:10px;left:0;right:0;margin:0 auto;
+    display:flex;justify-content:space-between;align-items: center;
+}
+.logo{width:1100px;height:95px;margin:0 auto;font:13px/30px "";}
+.logo a{float:left;background:url("../images/taobao-logo.png") no-repeat left;width:140px;height:100px;padding-top:10px;}
+.logo .box{float:right;padding-top:40px;}
+.logo .box .inpt{width:448px;height:30px;border:2px solid #ff5500;float:left;}
+.logo .box .inpt .txt{float:left;width:350px;height: 30px;border:none;background: url("../images/search.png") no-repeat left,url("../images/search2.png") no-repeat right;margin-right:10px;text-indent: 17px;margin-left:14px;outline:none;}
+.logo .box .inpt .sub{background:#ff4200;float:left;width:70px;height:28px;border:none;cursor:pointer;}
+.allDel{cursor: pointer;}

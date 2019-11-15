@@ -1,0 +1,14 @@
+.img-responsive{
+    width:150px;height: 200px;;
+}
+.prise{color:red;font-size: 30px;}
+.describe{
+    width: 150px;
+    display: -webkit-box;
+            -webkit-box-orient: vertical;
+             -webkit-line-clamp: 2;
+             overflow: hidden;
+}
+.btn a{color:black;}
+.operate-area{margin:0 auto;width:800px;height:30px;margin-bottom: 30px;display: flex;justify-content: space-around;align-items: center}
+.operate-area span{width:60px;height:20px;border:1px solid gray;cursor: pointer;text-align: center;}
